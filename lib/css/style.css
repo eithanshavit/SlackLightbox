@@ -30,6 +30,11 @@ html, body {
   left: 0px;
   right: 0px;
   overflow: hidden;
+  background: url(/img/plumeria.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
 #lightbox img {
   display: block;
@@ -43,6 +48,7 @@ html, body {
 #search-container {
   position: absolute;
   width: 100%;
+  overflow: hidden;
   height: 60px;
   bottom: 0;
   background: rgba(255, 255, 255, 0.65);
@@ -50,9 +56,11 @@ html, body {
 }
 #search-container #search-box {
   height: 100%;
-  width: 50%;
+  width: 30%;
+  float: left;
   margin: 0;
-  padding: 5px 15px;
+  padding: 0;
+  padding-left: 15px;
   font-size: 28px;
   outline: none;
   text-align: left;
@@ -62,8 +70,18 @@ html, body {
   background-color: rgba(255, 255, 255, 0);
   font-family: HelveticaNeue-Thin, Open Sans, sans-serif;
 }
-#search-container #search-box:hover {
-  text-decoration: none;
+#search-container #title-container {
+  text-align: right;
+  width: 70%;
+  height: 100%;
+  float: left;
+  display: table;
+}
+#search-container #title-container #title {
+  display: table-cell;
+  vertical-align: middle;
+  padding-right: 20px;
+  color: #c33295;
 }
 
 /*# sourceMappingURL=style.css.map */
