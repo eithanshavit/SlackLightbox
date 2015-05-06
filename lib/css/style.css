@@ -41,11 +41,10 @@ header {
 #lightbox img {
   display: block;
 }
-#lightbox #viewport-bottom {
+#lightbox .viewport {
   position: absolute;
-}
-#lightbox #viewport-top {
-  position: relative;
+  transition: visibility 1s linear 0.5s;
+  transition: opacity 0.5s linear 0.5s;
 }
 
 #search-container #search-box {

@@ -42,12 +42,10 @@ header {
     display: block;
   }
 
-  #viewport-bottom {
+  .viewport {
     position: absolute;
-  }
-
-  #viewport-top {
-    position: relative;
+    transition:visibility 1s linear 0.5s;
+    transition:opacity 0.5s linear 0.5s;
   }
 
 }
