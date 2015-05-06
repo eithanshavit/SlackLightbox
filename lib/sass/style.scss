@@ -20,7 +20,7 @@ header {
     position: relative;
 }
 
-#content {
+#lightbox {
     background-color: pink;
     width: 100%;
     padding: 0px 0px 0px 0px;
@@ -31,6 +31,7 @@ header {
 }
 
 #search-container {
+
   #search-box {
     height: 100%;
     width: 50%;
@@ -38,9 +39,9 @@ header {
     padding: 5px 7px;
     font-size:14px;
     outline: none;
-    text-align: center;
+    text-align: left;
     text-decoration: none;
-    color: #3d3d3d;
+    color: #000000;
     border: solid 1px #0076a3; border-right:0px;
     background: #0095cd;
   }
