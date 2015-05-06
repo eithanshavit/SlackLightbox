@@ -1,6 +1,6 @@
 html, body {
   height: 100%;
-  background-color: yellow;
+  background-color: black;
   font: 100% Helvetica, sans-serif;
   margin: 0;
   padding: 0;
@@ -23,11 +23,23 @@ header {
 #lightbox {
   background-color: pink;
   width: 100%;
-  padding: 0px 0px 0px 0px;
   position: absolute;
   bottom: 0px;
   top: 70px;
-  margin: 0px 0 0 0;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+}
+#lightbox img {
+  display: block;
+  overflow: hidden;
+  max-width: 100%;
+  max-height: 100%;
+}
+#lightbox .landscape {
+  height: 100%;
+}
+#lightbox .portrait {
+  width: 100%;
 }
 
 #search-container #search-box {
