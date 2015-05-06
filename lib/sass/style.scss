@@ -1,0 +1,31 @@
+html, body {
+    height: 100%;
+    background-color: yellow;
+    font: 100% Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    width: 100%;
+    height: 150px;
+    background-color: blue;
+}
+
+#wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 0 0 0;
+    position: relative;
+}
+
+#content {
+    background-color: pink;
+    width: 100%;
+    padding: 0px 0px 0px 0px;
+    position: absolute;
+    bottom: 0px;
+    top: 70px;
+    margin: 0px 0 0 0;
+}
