@@ -7,6 +7,7 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks "grunt-contrib-sass"
   grunt.loadNpmTasks "grunt-contrib-watch"
   grunt.loadNpmTasks "grunt-contrib-jshint"
+  grunt.loadNpmTasks "grunt-jscs"
 
   grunt.initConfig
 
@@ -25,13 +26,21 @@ module.exports = (grunt) ->
           "lib/js/**/*"
         ]
         tasks: [
-          "sass"
+          "build"
         ]
 
     jshint:
       all: [
         "lib/js/**/*"
       ]
+
+    jscs:
+      src: [
+        "lib/js/**/*"
+      ]
+      options:
+        config: '.jscsrc'
+        verbose: true
 
     sass:
       compile:
@@ -45,8 +54,15 @@ module.exports = (grunt) ->
           ext: '.css'
         ]
 
-  grunt.registerTask "default", [
+  grunt.registerTask "build", [
     "sass"
+    "jshint"
+    "jscs"
+    "connect"
+  ]
+
+  grunt.registerTask "default", [
+    "build"
     "connect"
     "watch"
   ]
