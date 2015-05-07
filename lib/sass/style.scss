@@ -42,14 +42,37 @@ html, body {
 
   .viewport {
     position: absolute;
-    transition:visibility 1s linear 0.5s;
-    transition:opacity 0.5s linear 0.5s;
+    transition:visibility 0.3s linear 0.3s;
+    transition:opacity 0.3s linear 0.3s;
+  }
+
+}
+
+#status-container {
+  position: absolute;
+  height: 40px;
+  top: 10px;
+  left: 10px;
+  background: rgba(255, 255, 255, 0.65);
+  z-index: 999;
+  margin: 0;
+  padding: 0;
+  font-size: 28px;
+
+  #status-loading {
+    position: absolute;
+    outline: none;
+    text-align: left;
+    color: #D7217B;
+    font-family: HelveticaNeue-Thin, Open Sans, sans-serif;
+    transition:visibility 0.3s linear 0.3s;
+    transition:opacity 0.3s linear 0.3s;
+    opacity: 0;
   }
 
 }
 
 #search-container {
-
   position: absolute;
   width: 100%;
   overflow: hidden;
@@ -69,7 +92,7 @@ html, body {
     outline: none;
     text-align: left;
     text-decoration: none;
-    color: #000000;
+    color: #575757;
     border: none;
     background-color: rgba(255, 255, 255, 0);
     font-family: HelveticaNeue-Thin, Open Sans, sans-serif;
@@ -77,9 +100,9 @@ html, body {
 
   #title-container {
     text-align: right;
-    width: 70%;
+    width: 60%;
     height: 100%;
-    float: left;
+    float: right;
     display: table;
 
     #title {
@@ -90,6 +113,20 @@ html, body {
     }
   }
 
+  #counter-container {
+    text-align: right;
+    width: auto;
+    height: 100%;
+    float: right;
+    display: table;
 
+    #counter {
+      text-align: right;
+      display: table-cell;
+      vertical-align: middle;
+      padding-right: 10px;
+      color: rgb(98, 98, 98);
+    }
+  }
 
 }

@@ -6,8 +6,10 @@ This lightbox features a full screen aspect-cover image, and a real-time search 
 
 See the result at [eithanshavit.com/SlackLightbox](http://www.eithanshavit.com/SlackLightbox)
 
-## TODO
+### TODO
 Since this is an exercise the feature set is limited. Here are some ideas for improvements:
 
 * Add paging to fetch more photos when user nears end of buffer
 * Create intuitive buttons for mouse navigation
+* Auto focus for search box
+* Smarter image preloader
