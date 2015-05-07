@@ -13,3 +13,4 @@ Since this is an exercise the feature set is limited. Here are some ideas for im
 * Create intuitive buttons for mouse navigation
 * Auto focus for search box
 * Smarter image preloader
+* Responsive design
