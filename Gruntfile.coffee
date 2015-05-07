@@ -58,7 +58,6 @@ module.exports = (grunt) ->
     "sass"
     "jshint"
     "jscs"
-    "connect"
   ]
 
   grunt.registerTask "default", [
