@@ -1,7 +1,7 @@
 {
   "name": "SlackLightbox",
   "version": "1.0.0",
-  "description": "Exercise a pure JavaScript Lightbox",
+  "description": "Exercise creating a pure JavaScript Lightbox",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
