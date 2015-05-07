@@ -6,6 +6,7 @@ module.exports = (grunt) ->
   grunt.loadNpmTasks "grunt-contrib-connect"
   grunt.loadNpmTasks "grunt-contrib-sass"
   grunt.loadNpmTasks "grunt-contrib-watch"
+  grunt.loadNpmTasks "grunt-contrib-jshint"
 
   grunt.initConfig
 
@@ -26,6 +27,11 @@ module.exports = (grunt) ->
         tasks: [
           "sass"
         ]
+
+    jshint:
+      all: [
+        "lib/js/**/*"
+      ]
 
     sass:
       compile:
