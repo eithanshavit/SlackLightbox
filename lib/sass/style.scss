@@ -42,8 +42,11 @@ html, body {
 
   .viewport {
     position: absolute;
-    transition:visibility 0.2s linear 0.2s;
-    transition:opacity 0.2s linear 0.2s;
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -ms-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
   }
 
 }
@@ -65,8 +68,11 @@ html, body {
     text-align: left;
     color: #D7217B;
     font-family: HelveticaNeue-Thin, Open Sans, sans-serif;
-    transition:visibility 0.2s linear 0.2s;
-    transition:opacity 0.2s linear 0.2s;
+    -webkit-transition: opacity 0.2s linear;
+    -moz-transition: opacity 0.2s linear;
+    -ms-transition: opacity 0.2s linear;
+    -o-transition: opacity 0.2s linear;
+    transition: opacity 0.2s linear;
     opacity: 0;
   }
 
