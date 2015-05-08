@@ -2,7 +2,7 @@
 
 This is an exercise to create a pure JavaScript lightbox.
 
-This lightbox features a full screen aspect-cover image, and a real-time search box. When keywords are typed in the search box, 10 images are queried with Google Images and displayed. The left and right arrow keyboard keys navigate between the displayed images.
+This lightbox features a full screen aspect-cover image, and a real-time search box. When keywords are typed into the search box, 10 images are queried with Google Images and displayed. The left and right arrow keyboard keys navigate between the displayed images.
 
 See the result at [eithanshavit.com/SlackLightbox](http://www.eithanshavit.com/SlackLightbox)
 
